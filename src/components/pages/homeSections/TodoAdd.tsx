@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useAppDispatch } from "../../../store/store.ts";
-import { getReq, postReq } from "../../../store/features/TodoSlice.ts";
+import { useAppDispatch } from "../../../redux/store.ts";
+import { getReq, postReq } from "../../../redux/features/TodoSlice.ts";
 import scss from "./TodoAdd.module.scss";
 
 const TodoAdd = () => {

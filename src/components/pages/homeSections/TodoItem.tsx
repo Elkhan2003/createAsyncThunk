@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import scss from "./TodoItem.module.scss";
-import { useAppDispatch, useAppSelector } from "../../../store/store.ts";
+import { useAppDispatch, useAppSelector } from "../../../redux/store.ts";
 import {
   deleteReq,
   editReq,
   getReq,
-} from "../../../store/features/TodoSlice.ts";
+} from "../../../redux/features/TodoSlice.ts";
 
 const TodoItem = React.memo(() => {
   const [edit, setEdit] = useState<number | null>(null);
