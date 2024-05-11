@@ -27,7 +27,7 @@ const TodoItem = React.memo(() => {
     setEdit(null);
   };
 
-  const editFunc = (item: Todo) => {
+  const editFunc = (item: TodoData) => {
     setTitle(item.title);
     setImg(item.img);
     setEdit(item._id!);

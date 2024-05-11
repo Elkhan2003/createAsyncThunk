@@ -2,7 +2,7 @@ import axios from "axios";
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 interface initialStateType {
-  todo: Todo[];
+  todo: TodoData[];
   isLoading: boolean;
   error: string;
 }

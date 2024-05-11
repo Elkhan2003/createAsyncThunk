@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-interface Todo {
+interface TodoData {
   _id?: number;
   title: string;
   img: string;
@@ -13,7 +13,7 @@ namespace TODO {
   };
   type EditReq = {
     _id: number;
-    newData: NewDataType;
+    newData: TodoData;
   };
   type deleteReq = number;
 }
