@@ -1,11 +1,11 @@
-import TodoList from './components/totoList/TodoList'
+import Layout from "./components/layout/Layout.tsx";
 
 const App = () => {
   return (
     <>
-    <TodoList/>
+      <Layout />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
